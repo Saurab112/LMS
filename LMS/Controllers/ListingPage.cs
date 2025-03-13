@@ -66,11 +66,23 @@ namespace LMS.Controllers
             Books.Add(book);
             return RedirectToAction("Index");
         }
-
-		public IActionResult Delete()
+        [HttpGet]
+		public IActionResult Delete(int id)
         {
-			return View();
+            Book? book = Books.FirstOrDefault(b => b.BookId == id);
+			return View(book);
 		}
+        [HttpPost]
+        public IActionResult Delete(Book book)
+        {
+            Book? bookToDelete = Books.FirstOrDefault(b => b.BookId == book.BookId);
+            if(bookToDelete == null)
+            {
+                return NotFound();
+            }
+            Books.Remove(bookToDelete);
+            return RedirectToAction("Index");
+        }
         public IActionResult Borrow()
         {
 			return View();
