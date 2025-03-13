@@ -22,8 +22,43 @@ namespace LMS.Controllers
 
         public IActionResult Details(int id)
         {
-            Book book = Books.FirstOrDefault(b => b.BookId == id);
+            Book? book = Books.FirstOrDefault(b => b.BookId == id);
+            if(book == null)
+            {
+                return NotFound();
+			}
             return View(book);
+		}
+        public IActionResult Edit(int id)
+        {
+            Book? book = Books.FirstOrDefault(b=>b.BookId == id);
+			return View(book);
+		}
+        [HttpPost]
+        public IActionResult Edit(Book book)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(book);
+            }
+            Book? bookToEdit = Books.FirstOrDefault(b => b.BookId == book.BookId);
+			if(bookToEdit != null)
+			{
+				bookToEdit.Title = book.Title;
+				bookToEdit.Author = book.Author;
+				bookToEdit.ISBN = book.ISBN;
+				bookToEdit.PublishedDate = book.PublishedDate;
+			}
+
+                return RedirectToAction("Index");
+		}
+        public IActionResult Delete()
+        {
+			return View();
+		}
+        public IActionResult Borrow()
+        {
+			return View();
 		}
     }
 }

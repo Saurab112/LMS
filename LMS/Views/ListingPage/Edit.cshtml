@@ -1,0 +1,28 @@
+﻿@model Book;
+<div class="container mt-5">
+	<h2>Edit Book</h2>
+	<form asp-action="Edit" method="post">
+		<input type="hidden" asp-for="BookId" />
+		<div class="form-group">
+			<label for="Title">Title</label>
+			<input type="text" asp-for="Title" class="form-control" required/>
+		</div>
+		<div class="form-group">
+			<label for="Author">Author</label>
+			<input type="text" asp-for="Author" class="form-control" required />
+		</div>
+		<div>
+			<label for="ISBN">ISBN</label>
+			<input type="text" asp-for="ISBN" class="form-control" required />
+		</div>
+		<div>
+			<label for="PubhlishedDate">Published Date</label>
+			<input type="date" asp-for="PublishedDate" class="form-control"  required />
+		</div>
+		<div class="form-group mt-3">
+			<input type="submit" value="Save" class="btn btn-primary" />
+		</div>
+	</form>
+</div>
+
+
