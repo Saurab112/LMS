@@ -50,8 +50,7 @@
               "RelativeToolTip": "LMS\\Views\\ListingPage\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T10:04:40.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T10:04:40.142Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "LMS\\Views\\ListingPage\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T10:00:47.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T10:00:47.853Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "LMS\\Views\\ListingPage\\Index.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T09:07:23.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T09:07:23.422Z"
             },
             {
               "$type": "Document",
@@ -101,8 +98,7 @@
               "RelativeToolTip": "LMS\\Models\\Book.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAA8wBEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T09:02:30.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T09:02:30.119Z"
             },
             {
               "$type": "Document",
@@ -114,8 +110,7 @@
               "RelativeToolTip": "LMS\\Views\\ListingPage\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T08:53:57.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T08:53:57.279Z"
             },
             {
               "$type": "Document",
@@ -125,7 +120,7 @@
               "RelativeDocumentMoniker": "LMS\\Controllers\\ListingPage.cs",
               "ToolTip": "C:\\myLearnings\\LMS\\LMS\\Controllers\\ListingPage.cs",
               "RelativeToolTip": "LMS\\Controllers\\ListingPage.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAwwFEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAA/wFcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T10:55:17.662Z",
               "EditorCaption": ""
