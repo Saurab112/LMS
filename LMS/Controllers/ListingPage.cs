@@ -49,10 +49,25 @@ namespace LMS.Controllers
 				bookToEdit.ISBN = book.ISBN;
 				bookToEdit.PublishedDate = book.PublishedDate;
 			}
-
                 return RedirectToAction("Index");
 		}
-        public IActionResult Delete()
+        public IActionResult Create()
+        {
+			return View();
+		}
+        [HttpPost]
+        public IActionResult Create(Book book)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(book);
+            }
+            book.BookId = Books.Max(b => b.BookId) + 1;
+            Books.Add(book);
+            return RedirectToAction("Index");
+        }
+
+		public IActionResult Delete()
         {
 			return View();
 		}

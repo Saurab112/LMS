@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ1BhZ2VcQm9ycm93LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/myLearnings/LMS/LMS/Views/ListingPage/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ1BhZ2VcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/myLearnings/LMS/LMS/Views/ListingPage/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ1BhZ2VcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
