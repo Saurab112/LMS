@@ -96,3 +96,4 @@ C:\myLearnings\LMS\LMS\obj\Debug\net9.0\refint\LMS.dll
 C:\myLearnings\LMS\LMS\obj\Debug\net9.0\LMS.pdb
 C:\myLearnings\LMS\LMS\obj\Debug\net9.0\LMS.genruntimeconfig.cache
 C:\myLearnings\LMS\LMS\obj\Debug\net9.0\ref\LMS.dll
+C:\myLearnings\LMS\LMS\obj\Debug\net9.0\LMS.sourcelink.json

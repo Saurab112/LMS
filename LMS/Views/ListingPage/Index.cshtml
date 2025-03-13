@@ -31,12 +31,12 @@
 				</td>
 				<td>
 					<a asp-action="Details" asp-route-id="@book.BookId" class="btn btn-primary">Details</a>
-					<a asp-action="Edit" asp-route-id="@book.BookId" class="btn btn-primary">Details</a>
-					<a asp-action="Delete" asp-route-id="@book.BookId" class="btn btn-danger">Details</a>
-					<a asp-action="Borrow" asp-route-id="@book.BookId" class="btn btn-warning">Details</a>
-
+					<a asp-action="Edit" asp-route-id="@book.BookId" class="btn btn-primary">Edit</a>
+					<a asp-action="Delete" asp-route-id="@book.BookId" class="btn btn-danger">Delete</a>
+					<a asp-action="Borrow" asp-route-id="@book.BookId" class="btn btn-warning">Borrow</a>
 				</td>
 			</tr>
 		}
 		</tbody>
 	</table>
+	<a asp-action="Create" class="btn btn-primary">Add New Book</a>

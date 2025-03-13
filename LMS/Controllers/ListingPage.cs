@@ -19,5 +19,11 @@ namespace LMS.Controllers
             List<Book> books = Books;
 			return View(books);
         }
+
+        public IActionResult Details(int id)
+        {
+            Book book = Books.FirstOrDefault(b => b.BookId == id);
+            return View(book);
+		}
     }
 }
