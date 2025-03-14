@@ -27,7 +27,7 @@ namespace LMS.Models
 		[Required(ErrorMessage = "Published Date field is required.")]
 		[DataType(DataType.Date)]
 		[Display(Name = "Published Date")]
-		public DateOnly PublishedDate { get; set; }
+		public DateTime PublishedDate { get; set; }
 
 		//Navigation property
 		[BindNever]
