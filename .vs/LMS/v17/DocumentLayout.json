@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\myLearnings\\LMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|c:\\mylearnings\\lms\\lms\\views\\listingpage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|solutionrelative:lms\\views\\listingpage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|c:\\mylearnings\\lms\\lms\\models\\borrowrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|solutionrelative:lms\\models\\borrowrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|c:\\mylearnings\\lms\\lms\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|solutionrelative:lms\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|c:\\mylearnings\\lms\\lms\\views\\listingpage\\borrow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|solutionrelative:lms\\views\\listingpage\\borrow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|c:\\mylearnings\\lms\\lms\\controllers\\listingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|solutionrelative:lms\\controllers\\listingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|c:\\mylearnings\\lms\\lms\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|solutionrelative:lms\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|c:\\mylearnings\\lms\\lms\\views\\listingpage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|solutionrelative:lms\\views\\listingpage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|c:\\mylearnings\\lms\\lms\\views\\listingpage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|solutionrelative:lms\\views\\listingpage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|c:\\mylearnings\\lms\\lms\\views\\listingpage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|c:\\mylearnings\\lms\\lms\\views\\listingpage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|solutionrelative:lms\\views\\listingpage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|c:\\mylearnings\\lms\\lms\\views\\listingpage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|solutionrelative:lms\\views\\listingpage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FFEFCBDB-B0E2-477F-99F9-7339142FE6C0}|LMS\\LMS.csproj|c:\\mylearnings\\lms\\lms\\views\\listingpage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -38,23 +46,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "BorrowRecord.cs",
+              "DocumentMoniker": "C:\\myLearnings\\LMS\\LMS\\Models\\BorrowRecord.cs",
+              "RelativeDocumentMoniker": "LMS\\Models\\BorrowRecord.cs",
+              "ToolTip": "C:\\myLearnings\\LMS\\LMS\\Models\\BorrowRecord.cs",
+              "RelativeToolTip": "LMS\\Models\\BorrowRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T15:42:16.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Borrow.cshtml",
+              "DocumentMoniker": "C:\\myLearnings\\LMS\\LMS\\Views\\ListingPage\\Borrow.cshtml",
+              "RelativeDocumentMoniker": "LMS\\Views\\ListingPage\\Borrow.cshtml",
+              "ToolTip": "C:\\myLearnings\\LMS\\LMS\\Views\\ListingPage\\Borrow.cshtml",
+              "RelativeToolTip": "LMS\\Views\\ListingPage\\Borrow.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T15:26:27.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\myLearnings\\LMS\\LMS\\Views\\ListingPage\\Create.cshtml",
               "RelativeDocumentMoniker": "LMS\\Views\\ListingPage\\Create.cshtml",
               "ToolTip": "C:\\myLearnings\\LMS\\LMS\\Views\\ListingPage\\Create.cshtml",
               "RelativeToolTip": "LMS\\Views\\ListingPage\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T10:04:40.142Z"
+              "WhenOpened": "2025-03-13T10:04:40.142Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\myLearnings\\LMS\\LMS\\Views\\ListingPage\\Delete.cshtml",
               "RelativeDocumentMoniker": "LMS\\Views\\ListingPage\\Delete.cshtml",
@@ -62,48 +97,51 @@
               "RelativeToolTip": "LMS\\Views\\ListingPage\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T10:00:47.853Z"
+              "WhenOpened": "2025-03-13T10:00:47.853Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\myLearnings\\LMS\\LMS\\Views\\ListingPage\\Details.cshtml",
               "RelativeDocumentMoniker": "LMS\\Views\\ListingPage\\Details.cshtml",
               "ToolTip": "C:\\myLearnings\\LMS\\LMS\\Views\\ListingPage\\Details.cshtml",
               "RelativeToolTip": "LMS\\Views\\ListingPage\\Details.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACcAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAEBVwCcAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T10:00:43.588Z"
+              "WhenOpened": "2025-03-13T10:00:43.588Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\myLearnings\\LMS\\LMS\\Views\\ListingPage\\Index.cshtml",
               "RelativeDocumentMoniker": "LMS\\Views\\ListingPage\\Index.cshtml",
               "ToolTip": "C:\\myLearnings\\LMS\\LMS\\Views\\ListingPage\\Index.cshtml",
               "RelativeToolTip": "LMS\\Views\\ListingPage\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-13T09:07:23.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\myLearnings\\LMS\\LMS\\Models\\Book.cs",
               "RelativeDocumentMoniker": "LMS\\Models\\Book.cs",
               "ToolTip": "C:\\myLearnings\\LMS\\LMS\\Models\\Book.cs",
               "RelativeToolTip": "LMS\\Models\\Book.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA8wBEAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAA5wCEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T09:02:30.119Z"
+              "WhenOpened": "2025-03-13T09:02:30.119Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\myLearnings\\LMS\\LMS\\Views\\ListingPage\\Edit.cshtml",
               "RelativeDocumentMoniker": "LMS\\Views\\ListingPage\\Edit.cshtml",
@@ -111,17 +149,18 @@
               "RelativeToolTip": "LMS\\Views\\ListingPage\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T08:53:57.279Z"
+              "WhenOpened": "2025-03-13T08:53:57.279Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ListingPage.cs",
               "DocumentMoniker": "C:\\myLearnings\\LMS\\LMS\\Controllers\\ListingPage.cs",
               "RelativeDocumentMoniker": "LMS\\Controllers\\ListingPage.cs",
               "ToolTip": "C:\\myLearnings\\LMS\\LMS\\Controllers\\ListingPage.cs",
               "RelativeToolTip": "LMS\\Controllers\\ListingPage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwFcAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwFUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T10:55:17.662Z",
               "EditorCaption": ""

@@ -1,23 +1,36 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
+using System.ComponentModel.DataAnnotations;
 
 namespace LMS.Models
 {
 	public class Book
 	{
+		[BindNever]
 		public int BookId { get; set; }
 
-		[Required(ErrorMessage = "Title is required.")]
+		[Required(ErrorMessage = "Title field is required.")]
+		[StringLength(100, ErrorMessage = "Title cannot exceed 100 characters.")]
 		public string? Title { get; set; }
 
-		[Required(ErrorMessage = "Author is required.")]
+		[Required(ErrorMessage = "Author field is required.")]
+		[StringLength(100, ErrorMessage = "Author name cannot exceed 100 characters.")]
 		public string? Author { get; set; }
 
-		[Required(ErrorMessage = "ISBN is required.")]
+		[Required(ErrorMessage = "ISBN field is required.")]
+		[RegularExpression(@"^\d{3}-\d{10}$", ErrorMessage = "ISBN must be in the format XXX-XXXXXXXXXX.")]
 		public string? ISBN { get; set; }
 
-		public bool isAvailable { get; set; } = true;
+		[BindNever]
+		[Display(Name = "Available")]
+		public bool IsAvailable { get; set; } = true; //default to available
 
-		[Required(ErrorMessage = "Published Date is required.")]
+		[Required(ErrorMessage = "Published Date field is required.")]
+		[DataType(DataType.Date)]
+		[Display(Name = "Published Date")]
 		public DateOnly PublishedDate { get; set; }
+
+		//Navigation property
+		[BindNever]
+		public ICollection<BorrowRecord>? BorrowRecords { get; set; }
 	}
 }

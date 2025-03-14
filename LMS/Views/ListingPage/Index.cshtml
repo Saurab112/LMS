@@ -22,9 +22,9 @@
 				<td>@book.ISBN</td>
 				<td>@book.PublishedDate.ToString("yyyy-MM-dd")</td>
 				<td>
-					<span class="@(book.isAvailable ? "bg-success text-white rounded-pill px-2 py-0 d-inline-block fw-bold"
+					<span class="@(book.IsAvailable ? "bg-success text-white rounded-pill px-2 py-0 d-inline-block fw-bold"
                                     : "bg-danger text-white rounded-pill px-2 py-0 d-inline-block fw-bold")">
-						@(book.isAvailable ? "Available" : "Unavailable")
+						@(book.IsAvailable ? "Available" : "Unavailable")
 					</span>
 				</td>
 
