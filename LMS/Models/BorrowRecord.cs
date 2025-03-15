@@ -24,7 +24,7 @@ namespace LMS.Models
 		public string? Phone { get; set; }
 		[BindNever]
 		[DataType(DataType.DateTime)]
-		public DateTime BorrowDate { get; set; } = DateTime.UtcNow;
+		public DateTime BorrowDate { get; set; } = DateTime.Now;
 
 		[DataType(DataType.DateTime)]
 		public DateTime? ReturnDate { get; set; }
