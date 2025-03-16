@@ -5,7 +5,6 @@ namespace LMS.Models
 {
 	public class Book
 	{
-		[BindNever]
 		public int BookId { get; set; }
 
 		[Required(ErrorMessage = "Title field is required.")]
@@ -20,7 +19,6 @@ namespace LMS.Models
 		[RegularExpression(@"^\d{3}-\d{10}$", ErrorMessage = "ISBN must be in the format XXX-XXXXXXXXXX.")]
 		public string? ISBN { get; set; }
 
-		[BindNever]
 		[Display(Name = "Available")]
 		public bool IsAvailable { get; set; } = true; //default to available
 

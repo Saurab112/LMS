@@ -38,6 +38,10 @@ namespace LMS.Controllers
         public IActionResult Edit(int id)
         {
             Book? book = _db.Books.FirstOrDefault(b=>b.BookId == id);
+			if (book == null)
+            {
+				return NotFound();
+			}
 			return View(book);
 		}
         [HttpPost]
@@ -45,7 +49,7 @@ namespace LMS.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return View(book);
+                return NotFound();
             }
             Book? bookToEdit = _db.Books.FirstOrDefault(b => b.BookId == book.BookId);
 			if(bookToEdit != null)
@@ -55,11 +59,13 @@ namespace LMS.Controllers
 				bookToEdit.ISBN = book.ISBN;
 				bookToEdit.PublishedDate = book.PublishedDate;
 			}
-                return RedirectToAction("Index");
+            _db.SaveChanges();
+			return RedirectToAction("Index");
 		}
         public IActionResult Create()
         {
-			return View();
+            Book book = new Book();
+			return View(book);
 		}
         [HttpPost]
         public IActionResult Create(Book book)
@@ -68,14 +74,20 @@ namespace LMS.Controllers
             {
                 return View(book);
             }
-            book.BookId = _db.Books.Max(b => b.BookId) + 1;
+			//Entity framework automatically creates id as its the primary key
+			//book.BookId = _db.Books.Max(b => b.BookId) + 1;
             _db.Add(book);
+            _db.SaveChanges();
             return RedirectToAction("Index");
         }
         [HttpGet]
 		public IActionResult Delete(int id)
         {
             Book? book = _db.Books.FirstOrDefault(b => b.BookId == id);
+			if (book == null)
+			{
+				return NotFound();
+			}
 			return View(book);
 		}
         [HttpPost]
@@ -87,7 +99,8 @@ namespace LMS.Controllers
                 return NotFound();
             }
             _db.Remove(bookToDelete);
-            return RedirectToAction("Index");
+			_db.SaveChanges();
+			return RedirectToAction("Index");
         }
         public IActionResult Borrow(int id)
         {
