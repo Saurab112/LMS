@@ -32,7 +32,11 @@
 					<a asp-action="Details" asp-route-id="@book.BookId" class="btn btn-primary">Details</a>
 					<a asp-action="Edit" asp-route-id="@book.BookId" class="btn btn-primary">Edit</a>
 					<a asp-action="Delete" asp-route-id="@book.BookId" class="btn btn-danger">Delete</a>
-					<a asp-action="Borrow" asp-route-id="@book.BookId" class="btn btn-warning">Borrow</a>
+					@if (book.IsAvailable)
+					{
+						<a asp-action="Borrow" asp-route-id="@book.BookId" class="btn btn-warning">Borrow</a>
+					}
+
 				</td>
 			</tr>
 		}

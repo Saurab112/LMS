@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LMS.Controllers
 {
-    public class ListingPage : Controller
+    public class ListingPageController : Controller
     {
         private readonly LibraryContext _db;
 
-        public ListingPage(LibraryContext libraryContext)
+        public ListingPageController(LibraryContext libraryContext)
 		{
 			_db = libraryContext;
 		}
@@ -64,8 +64,7 @@ namespace LMS.Controllers
 		}
         public IActionResult Create()
         {
-            Book book = new Book();
-			return View(book);
+			return View();
 		}
         [HttpPost]
         public IActionResult Create(Book book)
